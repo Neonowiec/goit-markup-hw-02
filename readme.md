@@ -1,1 +1,1 @@
-https://neonowiec.github.io/goit-markup-hw-01/
+https://neonowiec.github.io/goit-markup-hw-02/
