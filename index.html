@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Studio</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -15,26 +16,28 @@
 <body>
   <!-- Heading -->
   <header>
+    <!-- Navigation to other pages -->
     <nav>
-      <!-- Navigation to other pages -->
-      <a href="index.html"><span>Web</span>Studio</a>
-      <menu>
-        <li class="main-navigation_item"><a href="/agency">Agencja</a></li>
-        <li class="main-navigation_item"><a href="portfolio.html">Portfolio</a></li>
-        <li class="main-navigation_item"><a href="/contact">Kontakt</a></li>
+      <a class="logo" href="index.html"><span class="studio">Web</span>Studio</a>
+      <menu class="nav-link">
+        <li><a class="link" href="/agency">Agencja</a></li>
+        <li><a class="link" href="portfolio.html">Portfolio</a></li>
+        <li><a class="link" href="/contact">Kontakt</a></li>
       </menu>
     </nav>
     <!-- Link to phone number -->
-    <a href="tel:+48111111111">+48 111 111 111</a>
+    <a class="tele-number" href="tel:+48111111111">+48 111 111 111</a>
     <!-- Link to email address  -->
-    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+    <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
   </header>
   <!-- Main page content -->
   <main>
-    <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-    <button type="button" class="main-button_item">Zamów usługe</button>
-    <article>
-      <ul>
+    <div class="main-div-item">
+      <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+      <button type="button" class="main-button_item">Zamów usługe</button>
+    </div>
+    <article class="article">
+      <ul class="list">
         <li>
           <h3>LOREM IPSUM</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
@@ -58,8 +61,8 @@
       </ul>
     </article>
     <section>
-      <h2>Czym się zajmujemy</h2>
-      <ul>
+      <h2 class="second-title">Czym się zajmujemy</h2>
+      <ul class="list">
         <li>
           <img alt="programer working" width="370" height="294" src="images/program.jpg">
         </li>
@@ -72,49 +75,61 @@
       </ul>
     </section>
     <section>
-      <h2>Nasz zespół</h2>
-      <ul>
+      <h2 class="second-title">Nasz zespół</h2>
+      <ul class="list">
         <li>
           <figure>
             <img alt="the man in the red shirt and glasses" width="270" height="260"
               src="./images/czerwona-koszula.jpg">
-            <figcaption>John Doe Product Designer</figcaption>
+            <figcaption class="photo-descriptions">
+              <p>John Doe</p>
+              <p><span class="second-photo-descriptions">Product Designer</span></p>
+            </figcaption>
           </figure>
         </li>
         <li>
           <figure>
             <img alt="blond lady with glasses" width="270" height="260" src="./images/Blond.jpg">
-            <figcaption>John Doe Frontend Developer</figcaption>
+            <figcaption class="photo-descriptions">
+              <p>John Doe</p>
+              <p><span class="second-photo-descriptions">Frontend Developer</span></p>
+            </figcaption>
           </figure>
         </li>
         <li>
           <figure>
             <img alt="the man in the blue shirt" width="270" height="260" src="./images/niebieska-koszula.jpg">
-            <figcaption>John Doe Marketing</figcaption>
+            <figcaption class="photo-descriptions">
+              <p>John Doe</p>
+              <p><span class="second-photo-descriptions">Marketing</span></p>
+            </figcaption>
           </figure>
         </li>
         <li>
           <figure>
             <img alt="gentleman in black t-shirt for men" width="270" height="260" src="./images/czarny-t-shert.jpg">
-            <figcaption>John Doe UI Designer</figcaption>
+            <figcaption class="photo-descriptions">
+              <p>John Doe</p>
+              <p><span class="second-photo-descriptions">UI Designer</span></p>
+            </figcaption>
           </figure>
         </li>
       </ul>
     </section>
   </main>
   <!-- Page footer -->
-  <footer>
-    <a href="/webstudio"><span>Web</span>Studio</a>
+  <footer class="footer">
+    <a class="footer-logo" href="index.html"><span class="studio">Web</span>Studio</a>
     <address>
-      <ul>
-        <li>
+      <ul class="list">
+        <li class="address">
           m. Warszawa, Aleje Jerozolimskie 21
         </li>
         <li>
-          <a href="mailto:info@example.com">info@example.com</a>
+          <a class="link-footer" href="mailto:info@example.com">info@example.com</a>
         </li>
         <li>
-          <a href="tel:+48111111111">+48 111 111 111</a>
+          <a class="link-footer" href="tel:+48111111111">+48 111 111 111</a>
         </li>
       </ul>
     </address>

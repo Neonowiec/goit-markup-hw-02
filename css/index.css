@@ -1,10 +1,165 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  background: #f5f7fa;
 }
 
-.main-navigation_item {
+:root {
+  --brand-color: #2196f3;
+  --text-color: #fffafa;
+  --contact-color: #808080;
+  --background-color: #2f303a;
+  --logo-color: #000000;
+  --all-color: #212121;
+  --second-descriptions-color: #757575;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  text-decoration: none;
+  color: var(--logo-color);
+}
+
+.logo:focus,
+.logo:hover {
+  color: var(--brand-color);
+}
+
+.studio {
+  color: var(--brand-color);
+}
+
+.nav-link {
+  list-style-type: none;
+  color: var(--all-color);
+}
+
+.link {
+  font-family: "Roboto";
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--all-color);
+}
+
+.link:focus,
+.link:hover {
+  color: var(--brand-color);
+}
+
+.tele-number {
+  font-family: "Roboto";
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--contact-color);
+}
+
+.tele-number:focus,
+.tele-number:hover {
+  color: var(--brand-color);
+}
+
+.mail {
+  font-family: "Roboto";
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--contact-color);
+}
+
+.mail:focus,
+.mail:hover {
+  color: var(--brand-color);
+}
+
+.main-div-item {
+  background-color: var(--background-color);
+}
+
+.main-title {
+  font-family: "Roboto";
+  font-size: 44px;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 .main-button_item {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: var(--brand-color);
+}
+
+.article {
+  list-style-type: none;
+  color: var(--all-color);
+}
+
+.article h3 {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: var(--all-color);
+}
+
+.article p {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: var(--contact-color);
+}
+
+.second-title {
+  font-family: "Roboto";
+  font-size: 36px;
+  color: var(--all-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.photo-descriptions p {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: var(--all-color);
+}
+
+.second-photo-descriptions {
+  color: var(--second-descriptions-color);
+}
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.footer-logo:focus,
+.footer-logo:hover {
+  color: var(--brand-color);
+}
+
+.address {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.address:focus,
+.address:hover {
+  color: var(--brand-color);
+}
+
+.link-footer {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: var(--contact-color);
+}
+
+.link-footer:focus,
+.link-footer:hover {
+  color: var(--brand-color);
 }
