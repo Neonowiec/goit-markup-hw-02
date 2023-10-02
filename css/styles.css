@@ -53,7 +53,7 @@ body {
 .address-list-fillters:hover {
     color: #404bbf;
 }
-.address-fillters:focus {
+.address-list-fillters:focus {
     color: #404bbf;
 }
 
