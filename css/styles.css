@@ -24,6 +24,7 @@ body {
 .logo:hover,
 :active {
     color: var(--letters2-color);
+    background-color: var(--main-background-color);
 }
 .logo:focus {
     color: #404bbf;
@@ -47,9 +48,10 @@ body {
 .nav-fillters:hover,
 :active {
     color: var(--letters2-color);
+    background-color: #ffffff;
 }
 .nav-fillters:focus {
-    color: #404bbf;
+    color: #ffffff;
 }
 .address-fillters {
     font-style: normal;
