@@ -21,7 +21,6 @@ body {
     text-transform: uppercase;
     color: var(--buttons-color);
 }
-
 .second-part-of-the-logo {
     color: var(--letters-color);
 }
@@ -39,13 +38,9 @@ body {
     color: var(--letters-color);
 }
 .nav-fillters:focus,
-.nav-fillters:active {
-    color: var(--letters2-color);
-}
 .nav-fillters:hover {
-    color: var(--letters2-color);
+    color: #404bbf;
 }
-
 .address-fillters {
     font-style: normal;
 }
@@ -55,14 +50,13 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color);
 }
-.address-list-fillters:hover {
-    color: var(--letters2-color);
+.address-list-fillters:hover,
+.address-fillters:focus {
+    color: #404bbf;
 }
-.address-fillters:focus,
-.address-fillters:active {
-    color: var(--letters2-color);
+.address-fillters:visited {
+    color: #404bbf;
 }
-
 .section-fillters {
     background-color: var(--letters-color);
 }
@@ -83,13 +77,10 @@ body {
     color: var(--main-background-color);
     cursor: pointer;
 }
-.main-button:hover {
-    background-color: #404bbf;
-}
+.main-button:hover,
 .main-button:focus {
     background-color: #404bbf;
 }
-
 .heading-fillters {
     font-weight: 500;
     font-size: 20px;
@@ -144,10 +135,7 @@ body {
     background-color: var(--background-color);
     cursor: pointer;
 }
-.portfolio-buttons:focus {
-    color: var(--main-background-color);
-    background-color: var(--letters2-color);
-}
+.portfolio-buttons:focus,
 .portfolio-buttons:hover {
     color: var(--main-background-color);
     background-color: var(--letters2-color);
