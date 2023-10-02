@@ -44,7 +44,7 @@ body {
 .nav-fillters:hover,
 :focus,
 :active {
-    color: var(--letters2-color);
+    color: #404bbf;
 }
 
 .address-fillters {
@@ -61,5 +61,5 @@ body {
 .address-list-fillters:hover,
 :focus,
 :active {
-    color: var(--letters2-color);
+    color: #404bbf;
 }
