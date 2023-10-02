@@ -21,6 +21,12 @@ body {
     text-transform: uppercase;
     color: var(--buttons-color);
 }
+.logo:hover,
+:focus,
+:active,
+:visited {
+    color: var(--letters2-color);
+}
 .second-part-of-the-logo {
     color: var(--letters-color);
 }
@@ -39,7 +45,8 @@ body {
 }
 .nav-fillters:hover,
 :focus,
-:active {
+:active,
+:visited {
     color: var(--letters2-color);
 }
 .address-fillters {
@@ -78,7 +85,7 @@ body {
 .main-button:hover,
 :focus,
 :active {
-    color: var(--letters2-color);
+    color: #404bbf;
     cursor: pointer;
 }
 .h3-fillters {
