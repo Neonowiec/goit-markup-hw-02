@@ -41,7 +41,7 @@ body {
     color: var(--letters-color);
 }
 
-.nav-fillters :hover,
+.nav-fillters:hover,
 :focus,
 :active {
     color: var(--letters2-color);
@@ -58,7 +58,7 @@ body {
     color: #434455;
 }
 
-.address-list-fillters :hover,
+.address-list-fillters:hover,
 :focus,
 :active {
     color: var(--letters2-color);
