@@ -88,7 +88,7 @@ body {
     background-color: #404bbf;
 }
 
-.h3-fillters {
+.heading-fillters {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -101,7 +101,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color);
 }
-.section-3-heading {
+.section-three-heading {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -109,10 +109,10 @@ body {
     text-transform: capitalize;
     color: var(--letters-color);
 }
-.section-4 {
+.section-four {
     background-color: var(--background-color);
 }
-.section-4-heading {
+.section-four-heading {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -120,7 +120,7 @@ body {
     text-transform: capitalize;
     color: var(--letters-color);
 }
-.section-4-images {
+.section-four-images {
     background-color: var(--main-background-color);
 }
 .second-part-footer-logo {
