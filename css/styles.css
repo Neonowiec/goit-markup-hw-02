@@ -56,9 +56,7 @@ body {
 .address-fillters:focus {
     color: #404bbf;
 }
-.address-fillters:visited {
-    color: #404bbf;
-}
+
 .section-fillters {
     background-color: var(--letters-color);
 }
