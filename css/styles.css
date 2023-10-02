@@ -38,9 +38,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--letters-color);
 }
-.nav-fillters:focus,
-:hover {
-    color: #404bbf;
+.nav-fillters:focus {
+    color: var(--letters2-color);
+}
+.nav-fillters:hover {
+    color: var(--letters2-color);
 }
 
 .address-fillters {
