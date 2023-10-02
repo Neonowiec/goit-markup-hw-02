@@ -50,7 +50,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color);
 }
-.address-list-fillters:hover,
+.address-list-fillters:hover {
+    color: #404bbf;
+}
 .address-fillters:focus {
     color: #404bbf;
 }
