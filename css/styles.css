@@ -22,10 +22,11 @@ body {
     color: var(--buttons-color);
 }
 .logo:hover,
-:focus,
-:active,
-:visited {
+:active {
     color: var(--letters2-color);
+}
+.logo:focus {
+    color: #404bbf;
 }
 .second-part-of-the-logo {
     color: var(--letters-color);
@@ -44,10 +45,11 @@ body {
     color: var(--letters-color);
 }
 .nav-fillters:hover,
-:focus,
-:active,
-:visited {
+:active {
     color: var(--letters2-color);
+}
+.nav-fillters:focus {
+    color: #404bbf;
 }
 .address-fillters {
     font-style: normal;
