@@ -51,7 +51,7 @@ body {
     background-color: #ffffff;
 }
 .nav-fillters:focus {
-    color: #ffffff;
+    color: #404bbf;
 }
 .address-fillters {
     font-style: normal;
@@ -91,6 +91,7 @@ body {
 :active {
     color: #404bbf;
     cursor: pointer;
+    background-color: #404bbf;
 }
 .h3-fillters {
     font-weight: 500;
