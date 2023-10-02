@@ -57,7 +57,7 @@ body {
 .address-list-fillters:hover {
     color: var(--letters2-color);
 }
-.address-fillters:focus {
+.address-fillters:active {
     color: var(--letters2-color);
 }
 
