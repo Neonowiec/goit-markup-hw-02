@@ -52,6 +52,12 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color);
 }
+.address-list-fillters:hover {
+    color: var(--letters2-color);
+}
+.address-fillters:focus {
+    color: var(--letters2-color);
+}
 
 .section-fillters {
     background-color: var(--letters-color);
