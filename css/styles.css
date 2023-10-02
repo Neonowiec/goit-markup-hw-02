@@ -55,9 +55,9 @@ body {
     color: #404bbf;
 }
 .section-fillters {
-    background-color: #2e2f42;
+    background-color: var(--letters-color);
 }
-h1 {
+.main-heading {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
