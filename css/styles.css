@@ -1,13 +1,14 @@
+:root {
+    --letters-color: #2e2f42;
+    --background-color: #f4f4fd;
+    --letters2-color: #404bbf;
+}
+
 body {
     font-family: "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #ffffff;
-}
-
-:root {
-    --letters-color: #2e2f42;
-    --background-color: #f4f4fd;
 }
 
 .logo {
@@ -18,5 +19,30 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.second-part-of-the-logo {
+    color: var(--letters-color);
+}
+
+.link {
     text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-fillters {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--letters-color);
+}
+
+.nav-fillters :hover,
+:focus,
+:active {
+    color: var(--letters2-color);
 }
