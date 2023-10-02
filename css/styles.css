@@ -21,14 +21,7 @@ body {
     text-transform: uppercase;
     color: var(--buttons-color);
 }
-.logo:hover,
-:active {
-    color: var(--letters2-color);
-    background-color: var(--main-background-color);
-}
-.logo:focus {
-    color: #404bbf;
-}
+
 .second-part-of-the-logo {
     color: var(--letters-color);
 }
@@ -45,14 +38,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--letters-color);
 }
-.nav-fillters:hover,
-:active {
-    color: var(--letters2-color);
-    background-color: #ffffff;
-}
-.nav-fillters:focus {
-    color: #404bbf;
-}
+
 .address-fillters {
     font-style: normal;
 }
@@ -62,11 +48,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color);
 }
-.address-list-fillters:hover,
-:focus,
-:active {
-    color: var(--letters2-color);
-}
+
 .section-fillters {
     background-color: var(--letters-color);
 }
@@ -86,13 +68,7 @@ body {
     letter-spacing: 0.04em;
     color: var(--main-background-color);
 }
-.main-button:hover,
-:focus,
-:active {
-    color: #404bbf;
-    cursor: pointer;
-    background-color: #404bbf;
-}
+
 .h3-fillters {
     font-weight: 500;
     font-size: 20px;
@@ -146,9 +122,4 @@ body {
     color: var(--buttons-color);
     background-color: var(--background-color);
     cursor: pointer;
-}
-.portfolio-buttons:hover,
-:focus {
-    color: var(--main-background-color);
-    background-color: var(--letters2-color);
 }
