@@ -142,3 +142,11 @@ body {
     background-color: var(--background-color);
     cursor: pointer;
 }
+.portfolio-buttons:focus {
+    color: var(--main-background-color);
+    background-color: var(--letters2-color);
+}
+.portfolio-buttons:hover {
+    color: var(--main-background-color);
+    background-color: var(--letters2-color);
+}
